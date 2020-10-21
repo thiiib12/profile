@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(248,248,248);
+  font-size: 16px;
+  width: 700px;
+}
+
+h2 {
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(100,100,100);
+}
+
+img {
+  margin-left: 20px;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+#info {
+  width: 250px;
+  display: inline-block;
+  margin:20px 0 0 20px;
+  padding: 0px 25px;
+}
+
+
+#name_box {
+  text-align: center;
+  background-color: #404E5C;
+  color: rgb(248,248,248);
+  width: 700px;
+  margin: 20px auto;
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 4px;
+}
+
+#head {
+  align-items: center;
+}
+
+.card {
+  background-color: #EAE8FF;
+  border-radius: 15px;
+  width: 950px;
+  margin: 40px auto;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.list_in_line {
+  list-style-type: none;
+  padding: 0px;
+  text-align: center;
+}
+
+.list_in_line li {
+  display: inline-block;
+  margin: 0px 10px;
+}
+
+.social_media_links {
+  color: #F25F5C;
+  font-size: 30px;
+}
+.underline {
+  text-decoration: underline;
+}
+
+.round_image {
+  border-radius: 100%;
+}
+
+.inline_block {
+  display: inline-block;
+}
+
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    width: 800px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card {
+    width: 600px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card {
+    width: 300px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
